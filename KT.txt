@@ -1,0 +1,371 @@
+# SIMPLE PROJECT KNOWLEDGE TRANSFER DOCUMENT
+
+You are a Senior Developer conducting a Knowledge Transfer session for a completely new employee.
+
+Analyze the entire repository and create a document called:
+
+PROJECT_KNOWLEDGE_TRANSFER.md
+
+Important:
+
+* Use VERY SIMPLE ENGLISH.
+* Avoid technical jargon whenever possible.
+* Assume the reader is:
+
+  * New to the company
+  * New to the project
+  * New to Node.js
+  * New to AWS
+  * New to Backend Development
+  * Only knows basic React
+* Explain concepts like you are teaching a college student or non-technical person.
+* Use lots of examples.
+* Use diagrams everywhere.
+
+---
+
+# SECTION 1: What Is This Project?
+
+Explain:
+
+* What does this application do?
+* Why was it built?
+* Who uses it?
+* What problem does it solve?
+
+Example:
+
+"This application helps hospitals manage patient records."
+
+or
+
+"This application helps customers buy products online."
+
+Explain in plain language.
+
+---
+
+# SECTION 2: Project Story
+
+Explain the application as a story.
+
+Example:
+
+Step 1:
+User opens website
+
+↓
+
+Step 2:
+User logs in
+
+↓
+
+Step 3:
+User views dashboard
+
+↓
+
+Step 4:
+User creates record
+
+↓
+
+Step 5:
+Data is saved
+
+Use simple real-life examples.
+
+---
+
+# SECTION 3: Big Picture Diagram
+
+Create a simple diagram.
+
+Example:
+
+User
+↓
+React Website
+↓
+Backend API
+↓
+Database
+↓
+Data Returned
+↓
+User Sees Result
+
+Explain each box in one sentence.
+
+---
+
+# SECTION 4: Folder Tour
+
+Explain every major folder like a house tour.
+
+Example:
+
+src/
+= Main React code
+
+components/
+= Reusable UI pieces
+
+pages/
+= Screens user sees
+
+services/
+= Talks to backend
+
+Explain every folder in simple language.
+
+---
+
+# SECTION 5: How Data Travels
+
+Show:
+
+User Clicks Button
+↓
+React Component
+↓
+API Call
+↓
+Backend
+↓
+Database
+↓
+Response
+↓
+UI Updates
+
+Explain each step.
+
+---
+
+# SECTION 6: Login Flow
+
+Create a visual diagram.
+
+Example:
+
+User
+↓
+Login Screen
+↓
+Credentials Checked
+↓
+Token Generated
+↓
+Dashboard Opens
+
+Explain in beginner-friendly language.
+
+---
+
+# SECTION 7: Main Features
+
+Identify all major features.
+
+For each feature explain:
+
+What it does
+
+Why users need it
+
+Which screens are involved
+
+Which APIs are involved
+
+Which database tables/collections are involved
+
+Use simple language.
+
+---
+
+# SECTION 8: Frontend Explanation
+
+Explain:
+
+* Where application starts
+* Routing
+* State management
+* API calls
+* Forms
+* Components
+
+Compare concepts to React whenever possible.
+
+---
+
+# SECTION 9: Backend Explanation
+
+Explain:
+
+Route
+Controller
+Service
+Database
+
+Using a restaurant analogy.
+
+Example:
+
+Route = Receptionist
+
+Controller = Manager
+
+Service = Worker
+
+Database = Storage Room
+
+Use similar analogies.
+
+---
+
+# SECTION 10: Database Explanation
+
+Explain every collection/model.
+
+Use examples.
+
+Example:
+
+User Collection
+
+Stores:
+
+* Name
+* Email
+* Role
+
+Think of it like an Excel sheet.
+
+---
+
+# SECTION 11: AWS Explanation
+
+Identify all AWS services.
+
+For each service explain:
+
+What it does
+
+Why project uses it
+
+Real-world analogy
+
+Example:
+
+S3
+
+Think of S3 as Google Drive where files are stored.
+
+CloudFront
+
+Think of CloudFront as a delivery network that brings files faster to users.
+
+Use simple analogies.
+
+---
+
+# SECTION 12: End-To-End Walkthrough
+
+Pick the 5 most important features.
+
+For each:
+
+User Action
+↓
+Frontend
+↓
+API
+↓
+Backend
+↓
+Database
+↓
+Response
+
+Mention actual files involved.
+
+---
+
+# SECTION 13: Top 20 Important Files
+
+Create a table:
+
+File
+Purpose
+Why It Matters
+
+Rank by importance.
+
+---
+
+# SECTION 14: If I Join Tomorrow
+
+Create a Day-by-Day Plan.
+
+Day 1
+
+What to read
+
+What to ignore
+
+What to understand
+
+Day 2
+
+Day 3
+
+Day 4
+
+Day 5
+
+Week 2
+
+Focus on becoming productive quickly.
+
+---
+
+# SECTION 15: Common Questions
+
+Generate beginner questions such as:
+
+What starts the application?
+
+How does login work?
+
+Where are API calls made?
+
+Where is data stored?
+
+How do I debug issues?
+
+Answer simply.
+
+---
+
+# SECTION 16: One Page Cheat Sheet
+
+Create a final summary page.
+
+Include:
+
+Project Purpose
+
+Architecture
+
+Main Features
+
+Important Files
+
+Important APIs
+
+AWS Services
+
+Learning Order
+
+This page should help a new developer understand the project in 10 minutes.
