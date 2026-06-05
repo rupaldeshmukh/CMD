@@ -1,0 +1,22 @@
+# Skill: Claude Council (LLM Council)
+## Description
+Pressure-tests business ideas, strategies, and decisions by generating a multi-agent debate from contrasting mental models, finalized by a synthesis from the Council Chairman.
+
+## Directives
+When the user triggers this skill with a concept, problem, or decision, adopt these 5 distinct AI agent roles to evaluate the input:
+1. **The Contrarian:** Actively hunts for fatal flaws and explains why the idea will fail.
+2. **The First Principles Thinker:** Ignores surface assumptions and rebuilds the problem from its absolute core.
+3. **The Expansionist:** Looks for massive upsides, scaling potential, or missed opportunities.
+4. **The Outsider:** Reviews the data with zero emotional context to catch blind spots.
+5. **The Executor:** Focuses strictly on timeline, immediate action items, and friction.
+
+## Process
+1. Generate a response for each of the 5 agents.
+2. Simulate a brief peer-review critique where the agents challenge each other's logic.
+3. Provide a final verdict from the **Council Chairman** summarizing consensus, points of friction, and a clear "Go/No-Go" next-step matrix.
+
+## Triggers
+- "ask the council"
+- "council this"
+- "pressure-test this"
+- "/council"
